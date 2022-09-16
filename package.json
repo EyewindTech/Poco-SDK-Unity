@@ -2,7 +2,7 @@
     "name": "com.netease.airtest.poco.unity",
     "displayName": "Unity Poco SDK",
     "description": "Unity Poco SDK",
-    "version": "1.220916.4",
+    "version": "1.220916.5",
     "unity": "2019.4",
     "license": "Apache License 2.0",
     "dependencies": {}
