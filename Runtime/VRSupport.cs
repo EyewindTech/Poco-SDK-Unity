@@ -36,13 +36,7 @@ public class VRSupport
 
     public object isVRSupported(List<object> param)
     {
-#if UNITY_3 || UNITY_4
-			return false;
-#elif UNITY_5 || UNITY_2017_1
-			return UnityEngine.VR.VRSettings.loadedDeviceName.Equals("CARDBOARD");
-#else
-        return UnityEngine.XR.XRSettings.loadedDeviceName.Equals("CARDBOARD");
-#endif
+        return false;
     }
 
     public object IsQueueEmpty(List<object> param)
